@@ -24,21 +24,21 @@ class MainClass extends PluginBase{
     public function onCommand(CommandSender $sender,command $command, $label, array $args) {
 		switch($command->getName()){
 			case "ILandbuy":
+                        	$sender->sendMessage("Acces denied");
+                        	return false;
+                        default:
 				$sender->sendMessage("Hello ".$sender->getName()."!");
 				$sender->sendMessage("thank you for reading the instructions");
 				$sender->sendMessage("type /startp on the corner of your land and /endp on the other corner. after that type /landbuy");
 				$sender->sendMessage("use landbuy to protect your land from griefers.");
 				return true;
-                        default:
+                         case "IFactions":
                         	$sender->sendMessage("Acces denied");
                         	return false;
-                         case "IFactions":
+                        default:
                          	$sender->sendMessage("Hello ".$sender->getName()."!");
                                 $sender->sendMessage("Sorry this instruction is still in progress");
                                 return true;
-                        default:
-                        	$sender->sendMessage("Acces denied");
-                        	return false;
                             
 		}
     }
