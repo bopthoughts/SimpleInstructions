@@ -2,7 +2,7 @@ name: SimpleInstructions
 author: da123rrell
 main: da123rrell\dada\MainClass
 version: 3.0.0
-description: says things
+description: Gives instructuins on things
 api: 1.13.1
 commands:
     ILandbuy:
