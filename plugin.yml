@@ -7,6 +7,8 @@ api: 1.13.1
 commands:
     ILandbuy:
         description: Replies
+        usage: "USAGE: /ILandbuy"
     IFaction:
         description: what and how to buy land
+        usage: "USAGE: /IFaction"
         
