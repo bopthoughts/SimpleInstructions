@@ -22,7 +22,7 @@ class MainClass extends PluginBase{
     }
     
     public function onCommand(CommandSender $sender,command $cmd, $label, array $args) {
-		switch($command->getName()){
+		switch($cmd->getName()){
 			case "ILandbuy":
 				$sender->sendMessage("Hello ".$sender->getName()."!");
 				$sender->sendMessage("thank you for reading the instructions");
