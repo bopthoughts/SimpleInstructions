@@ -15,4 +15,4 @@ and also you have to add to the plugin.yml
         description: a command
         usage: "USAGE: /a"
 ------------------------------------------------------------------------------------------
-P.s you can edit the description and usage according to what you want
+P.S you can edit the description and usage according to what you want
