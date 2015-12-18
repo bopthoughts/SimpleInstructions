@@ -1,0 +1,12 @@
+name: SimpleInstructions
+author: da123rrell
+main: da123rrell\dada\MainClass
+version: 1.0.0
+description: says thing
+api: 1.0.0
+commands:
+    landbuy:
+        description: Replies
+    whomadeyou:
+        description: what and how to buy land
+        
