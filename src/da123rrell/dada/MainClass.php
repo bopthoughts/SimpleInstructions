@@ -21,8 +21,8 @@ class MainClass extends PluginBase{
         $this->getlogger()->info("loading instructions...");
     }
     
-    public function onCommand(CommandSender $sender,command $cmd, $label, array $args) {
-		switch($cmd->getName()){
+    public function onCommand(CommandSender $sender,command $command, $label, array $args) {
+		switch($command->getName()){
 			case "ILandbuy":
 				$sender->sendMessage("Hello ".$sender->getName()."!");
 				$sender->sendMessage("thank you for reading the instructions");
