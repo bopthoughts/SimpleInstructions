@@ -1,9 +1,9 @@
 name: SimpleInstructions
 author: da123rrell
 main: da123rrell\dada\MainClass
-version: 1.0.0
+version: 2.0.0
 description: says thing
-api: 1.0.0
+api: 1.13.1
 commands:
     ILandbuy:
         description: Replies
