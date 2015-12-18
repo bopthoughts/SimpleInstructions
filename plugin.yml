@@ -5,8 +5,8 @@ version: 1.0.0
 description: says thing
 api: 1.0.0
 commands:
-    landbuy:
+    ILandbuy:
         description: Replies
-    whomadeyou:
+    IFaction:
         description: what and how to buy land
         
