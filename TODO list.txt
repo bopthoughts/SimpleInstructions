@@ -1,0 +1,2 @@
+-rewrite the plugin to add config file
+-try to make it so they can add instruction on command
