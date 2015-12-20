@@ -13,6 +13,6 @@ and also you have to add to the plugin.yml
 ------------------------------------------------------------------------------------------
     A:
         description: a command
-        usage: "USAGE: /a"
+        usage: "/a"
 ------------------------------------------------------------------------------------------
 P.S you can edit the description and usage according to what you want
